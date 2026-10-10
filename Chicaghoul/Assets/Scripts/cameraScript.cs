@@ -16,7 +16,7 @@ public class cameraScript : MonoBehaviour
         direction.Normalize();
 
         transform.position += direction * moveSpeed * Time.deltaTime;
-        Vector3 collisionPosition = transform.position + new Vector3(0, 0, 8);
+        Vector3 collisionPosition = transform.position + new Vector3(0, 0, 9);
         collision.transform.position = collisionPosition;
 
         if (Input.GetKeyDown(KeyCode.Space))
