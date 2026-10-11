@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class alienScript : MonoBehaviour
+public class movingInteractableScript : MonoBehaviour
 {
     public float speed = 5f;
 
